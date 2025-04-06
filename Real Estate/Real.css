@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1093520360/photo/dubai-marina-skyline-and-modern-skyscrapers-at-dawn.webp?b=1&s=170667a&w=0&k=20&c=plpdLb_WfImH9LVT6GCx2KVa7_UpDNn80qxW6ZqXF8Y=);
+    /* background-image: url(./home-img1.avif); */
+    background-attachment: fixed;
+ opacity: 0.9;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+   font-size: 2rem; 
+}
+span{
+    color: orangered;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-inline: 1rem;
+}
+li a{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 300;
+}
+.sign-in{
+    border: 1px solid orangered;
+padding:.2rem 1rem;
+border-radius: 5px;
+background: orangered;
+}
+.sign-in a{
+    font-weight: 400;
+}
+li:hover a{
+    color: orangered;
+    font-weight: 400;
+}
+.sign-in:hover{
+    background: transparent;
+}
+
+/*==========================================
+________ HERO SECTION STYLING HERE________
+============================================= */
+.hero-head{
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+.hero-head p{
+    color: orangered;
+    font-size: 1.7rem;
+font-weight: 400;
+}
+.hero-head h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.hero-head h1 span{
+    font-weight: 600;
+}
+.hero-head h5{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+}
+.hero-head button{
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    background: orangered;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+/*==========================================
+________ ABOUT SECTION STYLING HERE________
+============================================= */
+
+    .about-section{
+        margin-block: 6rem;
+    display: flex;
+    justify-content: center;
+    }
+    .about-head{
+        margin-left: 1rem;
+    }
+    .about-head h2{
+        font-size: 3rem;
+    }
+    .about-head p{
+        margin-top: 2rem;
+        font-weight: 300;
+    }
+     button{
+        border: none;
+        background: orangered;
+        color: #fff;
+        padding: .5rem 2rem;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+   .consulting-section{
+    height: 60vh;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/521078742/photo/rooftop-view-a-big-modern-city-by-night-travel-background.webp?b=1&s=170667a&w=0&k=20&c=SaSG8PeYXvNFuNmiitbJKDXu9m8hSnklsjaX84BXoHc=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+position: relative;   
+margin-block: 3rem;
+}
+
+
+   .overlay{
+position: absolute;
+height: 100%;
+width: 100%;
+background: rgba(0, 0, 0, 0.4);
+   }
+   .consulting-head{
+    position: absolute;
+    color: #fff;
+    font-weight: 300;
+text-align: center;
+margin-top: 4rem;   
+z-index: 9999;
+}
+.consulting-head h5{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.consulting-head h2{
+    font-size: 3rem;
+    margin-block: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.consulting-head h2 span{
+    font-weight: 600;
+}
+.consulting-head p{
+    padding-inline: 6rem;
+ padding-block: 1rem;
+}
+
+
+/*==========================================
+________ PROJECT SECTION STYLING HERE________
+============================================= */
+.project-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 1rem;
+    margin-block: 5rem;
+}
+.project-head h2{
+text-transform: uppercase;
+font-size: 2.5rem;
+margin-block: 1rem;
+}
+.project-card{
+display: flex;
+text-align: center;
+margin-block: 2rem;
+gap: 2rem;
+}
+.project-card h3{
+    font-size: 3rem;
+}
+.project-card span{
+    font-size: 1.5rem;
+}
+.project-image img{
+    height: 400px;
+    width: 400px;border-radius: 50%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+margin-inline: 1rem;
+margin-block: 1rem;
+}
+.gallery img{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin-block:1rem ;
+}
+.recent-project{
+    margin-block: 5rem;
+}
+.recent-project h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.recent-project button{
+    margin-inline: auto;
+    display: flex;
+}
+.our-location{
+    /* height: 100vh; */
+    width: 100%;
+    background: #000;
+    padding: 2rem;
+    margin-block: 3rem;
+    padding-inline: 2rem;
+}
+.location-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.our-location h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.location-p{
+    color: #ffffffa7;
+    margin-block: 2rem;
+    text-align: center;
+}
+.location-card img{
+    height: 200px;
+    width: 300px;
+}
+.location-card{
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+/* height: 300px; */
+}
+.location-card h4{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.location-cards p{
+    color: #000;
+    margin-block: .5rem;
+}
+.location-cards a{
+    color: orangered;
+    margin-bottom:1rem;
+    font-size: 1.2rem;
+}
+/*==========================================
+______Latest New SECTION STYLING HERE________
+============================================= */
+.latest-section{
+    margin-block: 3rem;
+}
+.latest-section h2{
+    font-size: 2.5rem ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.latest-cards{
+    margin-inline: 2rem;
+}
+.latest-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+margin-block: 2rem;
+}
+.latest-card img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.latest-section button{
+    display: flex;
+    margin-inline: auto;
+    margin-block: 4rem;
+}
+footer{
+    background: #000;
+    color: #ffffffcf;
+    height: 50vh;
+}
+footer h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+footer a , footer p{
+    color: #ffffff7c;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    margin: 3rem;
+}
+.footer-flex{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+       margin-top: .5rem;
+}
+.input-flex{
+    display: flex;
+    gap: 1rem;
+}
+.input-flex input{
+    height: 2rem;
+     border-radius: 10px;
+}
+.input-flex .btn-email {
+    border: none;
+    border-radius: 5px;
+    background: orangered;
+}
+.btn-email a{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+padding:.5rem 1rem;
+}
+hr{
+    color: orangered;
+    background: orangered;
+    margin: .5rem 0;
+    width: 5rem;
+}
+
+@media(max-width:900px){
+    ul{
+        display: none;
+    }
+    .about-section{
+        flex-direction: column;
+        margin-inline: auto;
+    }
+    .about-image img{
+        margin-inline: auto;
+        display: flex;
+    }
+    .project-section{
+    flex-direction: column;
+    }
+    .project-image{
+        margin-top: 2rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+       margin-inline:3rem ;
+    }
+    .gallery img{
+        height: 200px;
+    margin-inline: 1rem;
+    width: 250px;
+    object-fit: cover;
+    }
+    .location-cards {
+/* flex-direction: column; */
+flex-flow: wrap;
+    }
+    .latest-card{
+        flex-direction: column;
+    }
+    .latest-card:nth-child(2){
+flex-direction: column-reverse;
+    }.latest-section p{
+        color: #00000089;
+    }
+    footer{
+        height: auto;
+    }
+    .footer-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h2,h1,h5, p{
+        text-align: center;
+    }
+    
+    button{
+ margin-inline: auto;
+ display: flex;
+    }
+  .project-card{
+    margin-inline: 8.5rem;
+  }
+    
+}
+@media (max-width:578px){
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+   margin-inline: 7rem;
+    }
+    .gallery img{
+        width:300px;
+    }
+    h2{
+        font-size: 2rem !important;
+
+    }
+    .about-image img{
+    height: 300px;
+    }
+    .project-image img{
+        height: 300px;
+        width: 300px;
+
+    }
+    .project-card {
+flex-flow: wrap;
+
+    }
+    .latest-card img{
+        height: 300px;
+        width: 80vw;
+    object-fit: cover;
+    }
+    .hero-head h1 {
+        font-size: 3rem;
+    }
+   
+}
+@media (max-width:428px){
+
+}
